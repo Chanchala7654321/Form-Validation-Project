@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Form.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <h1>Sign-up</h1>
+    <form>
+        <fieldset>
+            <legend>Please sign-up here</legend>
+            <label for="name">Name:</label>
+                <i class="fa-solid fa-user"></i>
+                <!-- <i class="fa-solid fa-circle-xmark failure-icon" id="wrong"></i> -->
+                <!-- <i class="fa-solid fa-circle-check success-icon" id="right"></i> -->
+            <input id="name" name="name" type="text" required />
+
+
+
+            <label for="email">Email:</label>
+                <i class="fa-solid fa-envelope"></i>
+                <!-- <i class="fa-solid fa-circle-xmark failure-icon" id="wrong"></i> -->
+                <!-- <i class="fa-solid fa-circle-check success-icon" id="right"></i> -->
+            <input id="email" name="email" type="text" required />
+                
+
+
+            <label for="password">Password:</label>
+                <i class="fa-solid fa-lock"></i>
+                <!-- <i class="fa-solid fa-circle-xmark failure-icon" id="wrong"></i> -->
+                <!-- <i class="fa-solid fa-circle-check success-icon" id="right"></i> -->
+            <input id="password1" name="password" type="text" required />
+                
+
+
+            <label for="password">Confirm Password:</label>
+                <i class="fa-solid fa-lock"></i>
+                <!-- <i class="fa-solid fa-circle-xmark failure-icon" id="wrong"></i> -->
+                <!-- <i class="fa-solid fa-circle-check success-icon" id="right"></i> -->
+            <input id="password2" name="password" type="text" required />
+                
+
+            <label for="number">Number:</label>
+                <i class="fa-solid fa-phone"></i> 
+                <!-- <i class="fa-solid fa-circle-xmark failure-icon" id="wrong"></i> -->
+                <!-- <i class="fa-solid fa-circle-check success-icon" id="right"></i> -->
+            <input id="number" name="number" type="text" required />
+                
+
+
+            <label for="right">
+                <input class="agri" id="I" type="checkbox" required name="true"/>
+                I accept</label>
+            <input type="submit" value="sign-up " id="button"/>
+        </fieldset>
+        
+    </form>
+    </div>
+    <div class="main2">
+        <h1> Log-in</h1>
+        <form action="">
+            <fieldset>
+                <legend>Please log-in here</legend>
+    
+    
+                <label for="email">Email:</label>
+                    <i class="fa-solid fa-envelope"></i>
+                    <!-- <i class="fa-solid fa-circle-xmark failure-icon" id="wrong"></i> -->
+                    <!-- <i class="fa-solid fa-circle-check success-icon" id="right"></i> -->
+                <input id="email" name="email" type="text" required />
+                    
+    
+    
+                <label for="password">Password:</label>
+                    <i class="fa-solid fa-unlock"></i>
+                    <!-- <i class="fa-solid fa-circle-xmark failure-icon" id="wrong"></i> -->
+                    <!-- <i class="fa-solid fa-circle-check success-icon" id="right"></i> -->
+                <input id="password1" name="password" type="text" required />
+                    
+    
+    
+                <label for="right">
+                    <input class="agri" id="I" type="checkbox" required name="true"/>
+                    I accept</label>
+                <input type="submit" value="log-in" id="button3"/>
+            </fieldset>
+    
+        </form>
+    </div>
+
+    <div class="main3">
+        <form >
+            <div class="mainP">
+                <h1>Thank you for visiting here</h1>
+            <button type="button" id="buttonL">Back</button>
+            </div>
+        </form>
+    </div>
+    <script src="Form.js"></script>    
+</body>
+</html>
+
+
+
